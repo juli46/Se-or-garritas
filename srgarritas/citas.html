@@ -1,0 +1,44 @@
+<html lang="es">
+<head>
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>citas</title>
+     <link rel="icon" href="img/fondo.jpg">
+    <link rel="stylesheet" href="css/estilos3.css">
+
+</head>
+<body>
+    <img class="lola"  src="images/omg.gif"> 
+    
+    <form action="insertar.php" class="form-register" method="post" enctype="multipart/form-data">
+    <h1 class="form__title">Agende su cita!</h1>
+    <h6>Estamos aqui para la comodidad de tu mascota!</h6>
+    <div class="container--flex">
+        <label for="" class="form__label">Nombres</label>
+        <input type="text" class="form__input" name="nombres" placeholder="ingrese Nombre" required>
+    </div>
+    <div class="container--flex">
+        <label for="" class="form__label">Apellidos</label>
+        <input type="text" class="form__input" name="apellidos" placeholder="ingrese Apellidos" required>
+    </div>
+    <div class="container--flex">
+        <label for="" class="form__label">Correo Electronico</label>
+        <input type="email" class="form__input" name="correo" placeholder="ingrese Correo Electronico" required>
+    </div> 
+    <div class="container--flex">
+        <label for="" class="form__label">Numero de Telefono</label>
+        <input type="numeric" class="form__input" name="telefono" placeholder="ingrese Telefono" required>
+    </div>
+    <div>
+     <div class="container--flex">
+        <label for="" class="form__label">En que podemos ayudarte?</label>
+         <textarea class="form__text" id="escribe tu idea" name="comentario" placeholder="¿Cuentanos que necesitas?"></textarea>
+    </div>   
+        <input type="submit" class="form__submit">
+    </div>
+    </form>
+    
+    
+</body>
+</html>

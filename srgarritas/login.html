@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="icon" href="images/logoh.jpg">
+  <link rel="stylesheet" href="php/conexion.php">
+  <link rel="stylesheet" href="index.html">
+  <title>Iniciar Sesion</title>
+</head>
+
+<body>
+  <div class="bts"><a href="registro.html">Crear cuenta</a></div>
+  <div class="atras"><a href="index.html" id="tae"><img src="images/volver2.0.png" alt="" class="tama"></a></div>
+
+  
+  <form class="login-form" action="php/login.php" method="POST">
+    <div id="logo"><img src="images/hu.jpg " alt=""></div>
+    <input type="email" class="login-username" autofocus="true" required="true" placeholder="Correo Electronico" name="correo" />
+    <input type="password" class="login-password" required="true" placeholder="contraseña" name="clave" />
+    <input type="submit" name="Login" value="Iniciar sesion" class="login-submit" />
+  </form>
+  <a href="#" class="login-forgot-pass">¿Olvidaste la contraseña?</a>
+  <div class="underlay-photo"></div>
+  <div class="underlay-black"></div>
+  
+</body>
+<div class="logo1"> <img src="images/logoyojan.png" alt="" class="tema" >  </div>
+
+</html>

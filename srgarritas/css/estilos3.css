@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Constantia;
+    background-image: url(../images/WhatsApp\ Image\ 2023-08-29\ at\ 1.59.48\ PM.jpeg);
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.lola{
+    position: fixed;
+    min-height: 126%;
+    max-height: 100%;
+    min-width: 34%;
+    max-width: 40%;
+    top: 0;
+    opacity: 0.8;
+}
+
+.form-register{
+    width: 33%;
+    max-width: 500px;
+    
+    padding: 20px;
+    font-family: Constantia;
+    max-width: 500px;
+    top: 0;
+    opacity: 0.9;
+}
+
+.form__title{
+    font-family: Constantia;
+    margin-top: 0;
+    font-size: 1.8em;
+    text-align: center;
+    color: #24031c;
+    font-weight:bold;
+      color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(../img/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 30s linear infinite;
+}
+
+@keyframes back {
+    100% {
+        background-position: 2000px 0;
+    }
+    
+}
+
+h6{
+    font-family: Constantia;
+    margin-top: 0;
+    font-size: 1em;
+    text-align: center;
+    color: #fff;
+    font-weight:bold;
+}
+
+.form__label, .form__input{
+    display: block;    
+    font-weight:bold;
+}
+
+.form__label{
+    font-family: Constantia;
+    width: 100%;
+    padding: 6px;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 30px;
+    
+}
+
+.form__input{
+    width: 100%;
+    padding: 6px;
+    font-size: 0.8em;
+    background: #3a2c41;
+    border: 3px solid #3c353d;
+    border: 2px dashed;
+    margin-top: -1px;
+    color: #ffffff;
+}
+
+.form__file{
+    font-size: 0.9em;
+    margin: -5px 0;
+    width: 100%;
+    color: #fff; 
+    margin-top: 15px;
+    background: #404144;
+    border: 1px solid #fff;
+    
+}
+
+.container--flex{
+    justify-content:space-between;
+    margin-bottom: 20px;
+    align-items: center;
+    
+}
+
+.form__submit{
+    width: 100%;
+    background: #7c38e9;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 1em;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight:bold;
+}
+
+.form__submit:hover{
+    transition: 0.5s;
+    background: #0F0FA5;
+}
+
+.form__text{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    padding: 6px;
+    font-size: 1.1em;
+    background: #3a2c41;
+    border: 1px solid #3c353d;
+    margin-top: -1px;
+    color: #fff;
+    font-weight:bold; 
+    border: 2px dashed;  
+}
+
+.tatu{
+   height: 90vh;
+   width: 40%;
+   max-width: 100%;
+
+}
+
+

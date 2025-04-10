@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Buscar</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="./css/mainn.css">
+</head>
+<body>
+	<!-- SideBar -->
+	<section class="full-box cover dashboard-sideBar">
+		<div class="full-box dashboard-sideBar-bg btn-menu-dashboard"></div>
+		<div class="full-box dashboard-sideBar-ct">
+			<!--SideBar Title -->
+			<div class="full-box text-uppercase text-center text-titles dashboard-sideBar-title">
+				Bienvenido: <i class="zmdi zmdi-close btn-menu-dashboard visible-xs"></i>
+			</div>
+		<!-- SideBar User info -->
+			<div class="full-box dashboard-sideBar-UserInfo">
+				<figure class="full-box">
+					<img src="../srgarritas/img/logoyojan.png" alt="UserIcon">
+					<figcaption class="text-center text-titles">SR,GARRITAS</figcaption>
+				</figure>			
+					
+					<li>
+						<a href="#!" title="Salir del sistema" class="btn-exit-system">
+							<i class="zmdi zmdi-power"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!-- SideBar Menu -->
+			<ul class="list-unstyled full-box dashboard-sideBar-Menu">
+				<li>
+					<a href="home.html">
+						<i class="zmdi zmdi-view-dashboard zmdi-hc-fw"></i> Panel
+					</a>
+				</li>
+				
+				<li>
+					<a href="#!" class="btn-sideBar-SubMenu">
+						<i class="zmdi zmdi-account-add zmdi-hc-fw"></i> Usuarios <i class="zmdi zmdi-caret-down pull-right"></i>
+					</a>
+					<ul class="list-unstyled full-box">
+						<li>
+							<a href="citass.html"><i class="zmdi zmdi-account zmdi-hc-fw"></i> Citas programadas</a>
+						</li>
+						<li>
+							<a href="client-list.html"><i class="zmdi zmdi-male-female zmdi-hc-fw"></i> Pedidos</a>
+						</li>
+					</ul>
+				</li>
+				
+			</ul>
+		</div>
+	</section>
+
+	<!-- Content page-->
+	<section class="full-box dashboard-contentPage">
+		<!-- NavBar -->
+		<nav class="full-box dashboard-Navbar">
+			<ul class="full-box list-unstyled text-right">
+				<li class="pull-left">
+					<a href="#!" class="btn-menu-dashboard"><i class="zmdi zmdi-more-vert"></i></a>
+				</li>
+				<li>
+					<a href="search.html" class="btn-search">
+						<i class="zmdi zmdi-search"></i>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<!-- Content page -->
+		<div class="container-fluid">
+			<div class="page-header">
+			  <h1 class="text-titles"><i class="zmdi zmdi-search zmdi-hc-fw"></i> BUSCAR </h1>
+			</div>
+		</div>
+
+		<div class="container-fluid">
+			<form class="well">
+				<div class="row">
+					<div class="col-xs-12 col-md-8 col-md-offset-2">
+						<div class="form-group label-floating">
+							<span class="control-label">¿Qué estas buscando?</span>
+							<input class="form-control" type="text" name="search_book_init" required="">
+						</div>
+					</div>
+					<div class="col-xs-12">
+						<p class="text-center">
+							<button type="submit" class="btn btn-primary btn-raised btn-sm"><i class="zmdi zmdi-search"></i> &nbsp; Buscar</button>
+						</p>
+					</div>
+				</div>
+			</form>
+		</div>
+
+		<div class="container-fluid">
+			<form class="well">
+				<p class="lead text-center">Su última búsqueda  fue <strong>“Busqueda”</strong></p>
+				<div class="row">
+					<input class="form-control" type="hidden" name="search_book_destroy">
+					<div class="col-xs-12">
+						<p class="text-center">
+							<button type="submit" class="btn btn-danger btn-raised btn-sm"><i class="zmdi zmdi-delete"></i> &nbsp; Eliminar búsqueda</button>
+						</p>
+					</div>
+				</div>
+			</form>
+		</div>
+
+		
+						<div class="list-group-separator"></div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+		
+	</section>
+
+	<!--====== Scripts -->
+	<script src="./js/jquery-3.1.1.min.js"></script>
+	<script src="./js/sweetalert2.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/material.min.js"></script>
+	<script src="./js/ripples.min.js"></script>
+	<script src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="./js/main.js"></script>
+	<script>
+		$.material.init();
+	</script>
+</body>
+</html>
